@@ -12,16 +12,10 @@ $result =  mysqli_query($conn, "SELECT * FROM mahasiswa");
 <html>
 <head>
 	<title>Halaman Admin</title>
-	<style type="text/css">
-		img{
-			width: 100px;
-			height: 100px;
-		}
-	</style>
 </head>
 <body>
 
-	<h1>Daftar Mahasiswa</h1>
+	<h1>Daftar Mahasiswa Fakultas Teknik</h1>
 
 	<table border="1" cellpadding="10" cellspacing="0">
 		<tr>
