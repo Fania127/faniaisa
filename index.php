@@ -1,7 +1,7 @@
 <?php  
 // koneksi ke database
 // (host, username mySql, password, nama database)
-$conn = mysqli_connect("localhost", "root", "", "phpdasar");
+require 'functions.php';
 
 // ambil data dari tabel mahasiswa
 // (koneksi ke database, )
